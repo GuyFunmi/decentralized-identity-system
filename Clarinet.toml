@@ -8,6 +8,14 @@ cache_dir = "./.cache"
 [contracts.decentralized_identity]
 path = 'contracts/decentralized_identity.clar'
 
+[contracts.manage-user-profile]
+path = 'contracts/manage-user-profile.clar'
+clarity_version = 1
+
+[contracts.reputation-system-management]
+path = 'contracts/reputation-system-management.clar'
+clarity_version = 1
+
 [repl.analysis]
 passes = ["check_checker"]
 check_checker = { trusted_sender = false, trusted_caller = false, callee_filter = false }
